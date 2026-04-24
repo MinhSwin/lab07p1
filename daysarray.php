@@ -10,9 +10,6 @@
     <?php
     $days = array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
     echo "<p>The days of the week in English are: </p>";
-    //foreach ($days as $day) {
-        //echo "<p>$day</p>";
-    //}
     echo "<p>" .implode(", " , $days)."</p>";
     $days = array("Dimanche", "Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Saturday");
 
